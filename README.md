@@ -3,7 +3,13 @@ SupportSages which provides 24/7 server monitoring uses this script to automate 
 
 This script is to ease the task of adding servers to Nagios Monitor. Instead of manually compiling and installing nrpe and configuring it in the Nagios Monitor server, this script helps do that for you.
 
-This script is tested on Nagios Server 3.4.4 and Client running cPanel server (Centos 6). This assumes that the following are the configuration directores:
+This script is tested on Nagios Server 3.4.4 and Client running cPanel server (Centos 6). This assumes that the following are the configuration directories:
+
+Contact directory path: /usr/local/nagios/etc/objects/contacts
+
+Client directory path: /usr/local/nagios/etc/objects/clients
+
+If the directories are different, edit the script with the correct path
 
 This script is to be placed and executed from Nagios Monitor server. Make the following changes before executing the script [only once, setting configuration with reference to environment]:
 
