@@ -22,4 +22,6 @@ line168: addIP = ',aa.bb.cc.dd\n' --Replace with Nagios Server Public IP
 Before executing the script whitelist bothe server IPs in each other depending on the firewall configuration.
 
 After that execute the script with root privilages
-python 
+python nagios_configure.py
+
+Enter the client server root logins and the client name / configurations in the interactive prompt which follows and the status of the installation will be shown as output.
