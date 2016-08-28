@@ -20,3 +20,6 @@ line56: nurl = "http://198.50.243.114/nrpe-2.13.tar.gz" --Change URL with NRPE d
 line168: addIP = ',aa.bb.cc.dd\n' --Replace with Nagios Server Public IP
 
 Before executing the script whitelist bothe server IPs in each other depending on the firewall configuration.
+
+After that execute the script with root privilages
+python 
