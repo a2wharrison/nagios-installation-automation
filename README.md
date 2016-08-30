@@ -25,3 +25,35 @@ After that execute the script with root privilages
 python nagios_configure.py
 
 Enter the client server root logins and the client name / configurations in the interactive prompt which follows and the status of the installation will be shown as output.
+
+How To Use
+-----------
+
+run the file by using the command 
+python <filename>.py
+
+A prompt to enter the email account will appear as follows 
+Enter Email Account:
+
+A confirmation prompt will appear with the account detail and email address along with a new password prompt
+Account: example 
+Domain: example.com 
+Enter new Email Password:
+
+Enter the new password in the prompt.
+
+A success message will be printed in case of a successful password change.
+
+
+Sample output
+-------------
+
+Enter Email Account:example@example.com
+EmailAccount: example@example.com 
+Account: example 
+Domain: example.com 
+Enter new Email Password:redred
+-------------------------------------------------------------------
+Password changed successfully to redred
+
+
