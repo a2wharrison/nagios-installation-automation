@@ -30,7 +30,7 @@ How To Use
 -----------
 
 Run the file by using the command 
-<br />python <filename>.py
+<br />python filename.py
 
 A prompt to enter the email account will appear as follows 
 <br />Enter Email Account:
