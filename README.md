@@ -53,7 +53,7 @@ EmailAccount: example@example.com
 Account: example 
 Domain: example.com 
 Enter new Email Password:redred
--------------------------------------------------------------------
+"-------------------------------------------------------------------
 Password changed successfully to redred
 
 
