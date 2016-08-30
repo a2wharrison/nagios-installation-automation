@@ -29,18 +29,18 @@ Enter the client server root logins and the client name / configurations in the 
 How To Use
 -----------
 
-run the file by using the command 
-python <filename>.py
+Run the file by using the command 
+<br />python <filename>.py
 
 A prompt to enter the email account will appear as follows 
-Enter Email Account:
+<br />Enter Email Account:
 
 A confirmation prompt will appear with the account detail and email address along with a new password prompt
-Account: example 
-Domain: example.com 
-Enter new Email Password:
+<br />Account: example 
+<br />Domain: example.com 
+<br />Enter new Email Password:
 
-Enter the new password in the prompt.
+<br />Enter the new password in the prompt.
 
 A success message will be printed in case of a successful password change.
 
@@ -48,12 +48,12 @@ A success message will be printed in case of a successful password change.
 Sample output
 -------------
 
-Enter Email Account:example@example.com
-EmailAccount: example@example.com 
-Account: example 
-Domain: example.com 
-Enter new Email Password:redred
-"-------------------------------------------------------------------
-Password changed successfully to redred
+<br />Enter Email Account:example@example.com
+<br />EmailAccount: example@example.com 
+<br />Account: example 
+<br />Domain: example.com 
+<br />Enter new Email Password:redred
+<br />-------------------------------------------------------------------
+<br />Password changed successfully to redred
 
 
