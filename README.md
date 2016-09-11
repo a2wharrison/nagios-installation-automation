@@ -26,34 +26,5 @@ python nagios_configure.py
 
 Enter the client server root logins and the client name / configurations in the interactive prompt which follows and the status of the installation will be shown as output.
 
-How To Use
------------
-
-Run the file by using the command 
-<br />python filename.py
-
-A prompt to enter the email account will appear as follows 
-<br />Enter Email Account:
-
-A confirmation prompt will appear with the account detail and email address along with a new password prompt
-<br />Account: example 
-<br />Domain: example.com 
-<br />Enter new Email Password:
-
-<br />Enter the new password in the prompt.
-
-A success message will be printed in case of a successful password change.
-
-
-Sample output
--------------
-
-<br />Enter Email Account:example@example.com
-<br />EmailAccount: example@example.com 
-<br />Account: example 
-<br />Domain: example.com 
-<br />Enter new Email Password:redred
-<br />-------------------------------------------------------------------
-<br />Password changed successfully to redred
 
 
